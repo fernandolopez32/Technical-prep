@@ -39,3 +39,13 @@ function indexOfNumbers(arr,tar)
 }
 
 console.log(indexOfNumbers(nums, target));
+
+
+// write a function that will take an array and return an array with only odd numbers in it
+let newArray = [1,4,5,2,4,6,87,3]
+
+function findAllOddNumbers(array){
+    return  array.filter(number => number % 2 === 1)
+}
+
+console.log(findAllOddNumbers(newArray));
