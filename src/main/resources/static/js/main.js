@@ -49,3 +49,10 @@ function findAllOddNumbers(array){
 }
 
 console.log(findAllOddNumbers(newArray));
+
+
+function multiplyEachElementByTwo(array){
+    return array.map(e => e*2)
+}
+
+console.log(multiplyEachElementByTwo(newArray));
