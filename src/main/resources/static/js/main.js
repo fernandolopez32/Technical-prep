@@ -55,5 +55,12 @@ console.log(findAllOddNumbers(newArray));
 function multiplyEachElementByTwo(array){
     return array.map(e => e*2)
 }
-
 console.log(multiplyEachElementByTwo(newArray));
+
+// write a function that will divide each element in an array by a number
+
+function multiplyByX(array, divisor){
+ return array.map(element => element / divisor)
+}
+
+console.log(multiplyByX(newArray,4));
