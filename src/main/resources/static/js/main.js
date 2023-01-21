@@ -51,6 +51,7 @@ function findAllOddNumbers(array){
 console.log(findAllOddNumbers(newArray));
 
 
+// write a function that will take an array and multiply each element of the array by two
 function multiplyEachElementByTwo(array){
     return array.map(e => e*2)
 }
