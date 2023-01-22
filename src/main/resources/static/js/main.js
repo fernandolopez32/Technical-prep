@@ -21,3 +21,21 @@ function findFirstAndLastInstanceOfTarget(array, target) {
 
 console.log(findFirstAndLastInstanceOfTarget(arr,Target));
 
+//3
+//given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.You may assume that each input would have exactly one solution, and you may not use the same element twice.
+let nums  = [2, 7, 11, 15]
+let target = 9
+
+
+function indexOfNumbers(arr,tar)
+{
+    for(let i = 0; i <= arr.length; i++){
+        for(let j = i; i <= arr.length; j++){
+            if (arr[i] + arr[j] === tar){
+                return arr.indexOf(j);
+            }
+        }
+    }
+}
+
+console.log(indexOfNumbers(nums, target));
