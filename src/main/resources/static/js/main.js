@@ -64,3 +64,12 @@ function multiplyByX(array, divisor){
 }
 
 console.log(multiplyByX(newArray,4));
+
+
+// write a function that takes all the numbers is an array and gets the average
+
+function averageOfArray(array){
+    return array.reduce((acc, current) => acc + current)/array.length;
+}
+
+console.log(averageOfArray(newArray));
