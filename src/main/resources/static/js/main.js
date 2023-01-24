@@ -67,3 +67,34 @@ function averageOfArray(array){
 }
 
 console.log(averageOfArray(newArray));
+
+// Start here
+
+
+// write a function that adds 2 to each element of an array
+
+function addTwo(array){
+    return array.map(element => element +2)
+}
+
+console.log(addTwo(newArray))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
