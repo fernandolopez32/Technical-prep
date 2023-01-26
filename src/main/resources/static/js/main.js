@@ -70,7 +70,7 @@ console.log(averageOfArray(newArray));
 
 // Start here
 
-
+//8
 // write a function that adds 2 to each element of an array
 
 function addTwo(array){
