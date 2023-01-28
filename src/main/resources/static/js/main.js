@@ -38,7 +38,7 @@ console.log(indexOfNumbers(nums, target));
 
 //4
 // write a function that will take an array and return an array with only odd numbers in it
-let newArray = [1,4,5,2,4,6,87,3]
+let newArray = [1,4,5,2,4,6,87,3,-2,-4,0]
 function findAllOddNumbers(array){
     return  array.filter(number => number % 2 === 1)
 }
@@ -83,8 +83,11 @@ console.log(addTwo(newArray))
 // write a function that takes an array of ints and returns an array of positive even ints
 
 
+function positiveAndEven(array){
+    return array.filter(element => element % 2 === 0 && element > 0)
+}
 
-
+console.log(positiveAndEven(newArray))
 
 
 
