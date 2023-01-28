@@ -79,6 +79,8 @@ function addTwo(array){
 
 console.log(addTwo(newArray))
 
+//9
+// write a function that takes an array of ints and returns an array of positive even ints
 
 
 
